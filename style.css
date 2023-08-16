@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100ch;
+    background-color: #000;
+    padding: 0px 50px;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    border-bottom: 2px solid #dadada;
+}
+#navpart2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+#navpart2 h1{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#navpart2 h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#navpart2 h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+#left{
+    width: 50%;
+    height: 100%;
+    padding: 100px 50px;
+    /* background-color: red;     */
+}
+#left h1{
+    text-transform:uppercase;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 130px;
+}
+#left h1 span img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -20px;
+    border:3px solid #000;
+}
+#left span h1 img:nth-child(1){
+    margin-left: 0;
+}
+#left h1:nth-child(3){
+    margin-left: 30px;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color:blue;     */
+}
+#right img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    padding: 100px 50px;
+}
+#page2{
+    width: 100%;
+    height: 100ch;
+    background-color: #000 ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 30px;
+}
+.box h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.box p{
+    font-size: 20px;
+    color: #dadada;
+    font-weight: 600;
+}
